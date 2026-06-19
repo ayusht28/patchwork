@@ -125,3 +125,4 @@ def heal(code: str, verbose: bool = True) -> AgentResult:
         memory=memory,
         message=f"Still failing after {MAX_RETRIES} retries.",
     )
+# core feedback loop
