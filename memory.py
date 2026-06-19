@@ -83,3 +83,4 @@ class Memory:
             lines.append(attempt.summary())
         lines.append("=" * 50)
         return "\n".join(lines)
+# attempt history
