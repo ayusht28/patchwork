@@ -100,3 +100,4 @@ def request_fix(code: str, error: str, history_messages: list) -> str:
     if not fixed.strip():
         raise LLMError("Groq returned an empty fix.")
     return fixed
+# groq api client
